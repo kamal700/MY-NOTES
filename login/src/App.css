@@ -1,0 +1,42 @@
+:root {
+  --greydark: rgb(11, 13, 15);
+  --greylight: rgb(221, 219, 219);
+  --fontcolor: white;
+  --backColor: rgba(0,0,0,0.9);
+}
+#signup,#login{
+  background-color: transparent;
+}
+body {
+  color: var(--fontcolor);
+  font-family: sans-serif;
+  background: url("./component/background.jpg");
+  background-size: cover;
+  overflow-y: scroll;
+}
+.window {
+  background-color: var(--greydark);
+  color: var(--fontcolor);
+  padding: 30px;
+}
+.userInfo {
+  color: var(--fontcolor);
+}
+.contentDescH {
+  display: none;
+  color: var(--fontcolor);
+ 
+}
+
+.items{
+  background-color: var(--backColor);
+}
+#content [id^="titleC"]:hover {
+  text-decoration: underline;
+
+}
+#window{
+  background-color: rgba(255,255,255,0.5);
+  min-height: 100vh;  
+  height: max-content;
+}

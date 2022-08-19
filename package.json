@@ -1,0 +1,15 @@
+{
+    "name": "MY NOTES",
+    "author": {
+        "name": "KAMAL KISHORE"
+    },
+    "scripts": {
+        "install": "cd Backend && npm install && cd ../login && npm install",
+        "server": "cd Backend && npm start",
+        "client": "cd login && npm start",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "devDependencies": {
+        "concurrently": "^6.3.0"
+    }
+}
